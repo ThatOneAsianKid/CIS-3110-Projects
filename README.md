@@ -1,10 +1,6 @@
 # Video Game Analytics Dashboard
 This project is an analytics dashboard that as designed for video game companies to visualize data about key player behavior and performance metrics. This website showcases real time charts that are made from fabricated datasets and rendered through HTML, Javascript, and Chart.js
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
-![alt tag](http://placecorgi.com/1200/650)
-
 ## Overview
 
 This dashboard helps game studios explore important player-focused metrics such as:
