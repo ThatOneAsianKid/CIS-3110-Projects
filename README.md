@@ -1,33 +1,45 @@
-# CIS-3110-Projects
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+# Video Game Analytics Dashboard
+This project is an analytics dashboard that as designed for video game companies to visualize data about key player behavior and performance metrics. This website showcases real time charts that are made from fabricated datasets and rendered through HTML, Javascript, and Chart.js
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
 ![alt tag](http://placecorgi.com/1200/650)
 
-## How It's Made:
+## Overview
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+This dashboard helps game studios explore important player-focused metrics such as:
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+- Daily active players  
+- Ad engagement funnel  
+- Platform usage and average playtime  
+- Player distribution by region  
+- Playtime differences across platform and region  
+- Technical performance metrics such as FPS vs Ping  
 
-## Optimizations
-*(optional)*
+Built with front-end technologies and custom data-generation scripts, the dashboard simulates what a real analytics tool inside a game studio might look like.
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+---
 
-## Lessons Learned:
+## How It’s Made
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+### Tech Used
+- HTML5 for page structure  
+- CSS3 and Bootstrap 4.5 for responsive layout and chart sizing  
+- JavaScript for data parsing, chart rendering, and dataset simulation  
+- Chart.js for all visualizations  
+- PapaParse for CSV loading and parsing  
+- Node.js for running the synthetic data generator  
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+---
 
-**Palettable:** https://github.com/alecortega/palettable
+## Project Structure
+/project-folder
+│
+├── index.html          # Main dashboard page
+├── test.html           # Sandbox for developing & testing changes
+├── data.csv            # Synthetic dataset used to build charts
+└── generate_data.js    # Script that generates the synthetic dataset
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
 
 
 
