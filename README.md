@@ -14,7 +14,6 @@ This dashboard helps game studios explore important player-focused metrics such 
 
 Built with front-end technologies and custom data-generation scripts, the dashboard simulates what a real analytics tool inside a game studio might look like.
 
----
 
 ## How It’s Made
 
@@ -26,7 +25,6 @@ Built with front-end technologies and custom data-generation scripts, the dashbo
 - PapaParse for CSV loading and parsing  
 - Node.js for running the synthetic data generator  
 
----
 
 
 
