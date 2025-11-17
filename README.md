@@ -32,13 +32,6 @@ Built with front-end technologies and custom data-generation scripts, the dashbo
 
 ---
 
-## Project Structure
-/project-folder
-│
-├── index.html          # Main dashboard page
-├── test.html           # Sandbox for developing & testing changes
-├── data.csv            # Synthetic dataset used to build charts
-└── generate_data.js    # Script that generates the synthetic dataset
 
 
 
